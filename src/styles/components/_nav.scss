@@ -1,0 +1,40 @@
+.nav__navbar{
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
+    background-color: $blue-dark;
+    width: 100%;
+    height: 125px;
+    padding-left: 35px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+
+.nav__logo{
+    background-color: $blue-dark;
+    height: 50px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.nav__linkcontainer{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 700px;
+    justify-content: space-evenly;
+}
+
+.nav__navlinks{
+    color: $white-pearl;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav__link:hover{
+    color: lighten($color:  $blue-ligth, $amount: 60);
+    
+    
+}
+    

@@ -1,0 +1,25 @@
+.about__container{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    background-color: $white-pearl;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about__aboutcontainer{
+    flex-direction: column;
+    
+
+}
+
+.about__h4{
+    color: $blue-dark;
+    font-size: 4em;
+}
+
+.about__containerp{
+    width:30%;
+    
+}

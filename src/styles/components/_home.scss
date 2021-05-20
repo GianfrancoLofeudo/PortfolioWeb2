@@ -1,0 +1,48 @@
+.home__main{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: $blue-dark;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.home__containerimg{
+   display: flex;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+
+}
+.home__circulo{
+    position: absolute;
+    width: 135%;
+    overflow: hidden;
+
+
+}
+
+.home__img{
+    width: 75%;
+    z-index: 1;
+}
+
+.home__h1{
+     font-size: 5em;
+     color: $white-pearl;
+}
+
+.home__h4{
+    font-size: 3em;
+    font-weight: 200;
+    color: $white-pearl;
+}
+
+.home__links{
+    display: flex;
+    flex-direction: column;
+}
+
+
